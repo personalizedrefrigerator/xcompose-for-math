@@ -1,0 +1,101 @@
+# Include default system compose file.
+# Should be /usr/share/X11/locale/SOMETHING/Compose
+include "%L"
+
+<Multi_key> <m> <d> <t> 	: "·" # Mid-dot (times, dot product)
+<Multi_key> <c> <i> <n> <f> : "∞" # Infinity
+<Multi_key> <l> <a> <n> <d> : "∧" # Logical and symbol
+<Multi_key> <l> <o> <r>     : "∨" # Logical or symbol
+<Multi_key> <l> <n> <g>     : "¬" # Logical negation
+<Multi_key> <l> <e> <x>     : "∃" # There exists
+<Multi_key> <l> <a> <l> <l> : "∀" # For all
+<Multi_key> <m> <s> <u>     : "∑" # Summation
+<Multi_key> <m> <p> <r>     : "∏" # Product
+<Multi_key> <m> <x>         : "⨯" # Product (vector product, cross product)
+<Multi_key> <c> <i> <n> <t> : "∫" # Integral symbol
+<Multi_key> <s> <u> <n>     : "∪" # Set union
+<Multi_key> <S> <i> <n>     : "∩" # Set intersection
+<Multi_key> <s> <i> <n>     : "∈" # Element of
+<Multi_key> <s> <n> <i> <n> : "∉" # Not element of
+<Multi_key> <s> <s> <u> <b> : "⊂" # Set subset
+<Multi_key> <S> <s> <u> <b> : "⊆" # Set subset equalto/inclusive
+<Multi_key> <m> <p> <m>     : "±" # Plus or minus.
+<Multi_key> <M> <p> <m>     : "∓" # Minus or plus.
+<Multi_key> <less> <equal>  : "≤" # Less than or equal to
+<Multi_key> <greater> <equal> : "≥" # Greater than or equal to
+<Multi_key> <n> <equal>       : "≠" # Not equal to
+<Multi_key> <exclam> <equal>  : "≠" # Not equal to (alternate)
+
+<Multi_key> <g> <d> <l>     : "∂" # Lowercase delta
+<Multi_key> <g> <D> <l>     : "Δ" # Uppercase delta
+<Multi_key> <g> <N> <b>     : "∇" # Nabla
+<Multi_key> <g> <t> <h>     : "ϑ" # Theta
+<Multi_key> <g> <T> <h>     : "Θ" # Capital theta
+<Multi_key> <g> <O> <m>     : "Ω" # Capital omega
+<Multi_key> <g> <O> <h> <m> : "Ω" # Capital omega (Ohm symbol)
+<Multi_key> <g> <p> <i>     : "π" # Pi
+<Multi_key> <g> <p> <h> <i> : "φ" # Phi
+<Multi_key> <g> <P> <h> <i> : "Φ" # Capital phi
+<Multi_key> <g> <l> <m> <d> : "λ" # Lamda
+<Multi_key> <g> <L> <m> <d> : "Λ" # Capital lamda
+<Multi_key> <g> <E>         : "ε" # Epsilon
+<Multi_key> <g> <w>         : "𝜔" # Omega
+<Multi_key> <g> <W>         : "Ω" # Capital omega
+<Multi_key> <g> <y>         : "γ" # Gamma
+<Multi_key> <g> <Y>         : "Γ" # Capital gamma
+<Multi_key> <g> <m> <u>     : "μ" # Small mu
+<Multi_key> <g> <M> <u>     : "Μ" # Capital mu
+<Multi_key> <g> <s> <i> <g> : "σ" # Lowercase sigma
+<Multi_key> <g> <S> <i> <g> : "Σ" # Capital sigma
+
+<Multi_key> <parenleft> <t>   : "⎛" # Upper left parenthesis
+<Multi_key> <parenleft> <e>   : "⎜" # Left parenthesis extension
+<Multi_key> <parenleft> <bar> : "⎜" # Left parenthesis extension
+<Multi_key> <parenleft> <b>   : "⎝" # Lower left parenthesis
+<Multi_key> <parenright> <t>  : "⎞" # Upper right parenthesis
+<Multi_key> <parenright> <e>  : "⎟" # Right parenthesis extension
+<Multi_key> <parenright> <bar>: "⎟" # Right parenthesis extension
+<Multi_key> <parenright> <b>  : "⎠" # Lower right parenthesis
+<Multi_key> <bracketleft> <t> : "⎡" # Upper left bracket
+<Multi_key> <bracketleft> <e> : "⎢" # Left bracket extension
+<Multi_key> <bracketleft> <b> : "⎣" # Lower left bracket
+<Multi_key> <bracketright> <t> : "⎤" # Upper right bracket
+<Multi_key> <bracketright> <e> : "⎥" # Right bracket extension
+<Multi_key> <bracketright> <b> : "⎦" # Lower right bracket
+<Multi_key> <braceleft> <t>     : "⎧" # Upper left brace.
+<Multi_key> <braceleft> <bar>   : "⎨" # Left curly bracket middle
+<Multi_key> <braceleft> <e>     : "⎪" # Left curly bracket extension
+<Multi_key> <braceleft> <b>     : "⎩" # Lower left brace
+<Multi_key> <braceright> <t>    : "⎫" # Right curly bracket middle
+<Multi_key> <braceright> <bar>  : "⎬" # Right curly bracket middle
+<Multi_key> <braceright> <e>    : "⎪" # Right curly bracket extension
+<Multi_key> <braceright> <b>    : "⎭" # Right curly bracket middle
+
+<Multi_key> <f> <R>         : "ℝ" # Real numbers (fields)
+<Multi_key> <f> <F>         : "𝔽" # Fields
+<Multi_key> <f> <C>         : "ℂ" # Complex numbers
+<Multi_key> <f> <Z>         : "ℤ" # Integers
+<Multi_key> <f> <N>         : "ℕ" # Natural numbers
+<Multi_key> <f> <P>         : "ℙ" # Primes? Polynomials?
+<Multi_key> <f> <E>         : "𝔼" # Expectation (Probability)
+
+# Additional superscripts
+<Multi_key> <asciicircum> <n>     : "ⁿ" # Superscript n
+<Multi_key> <asciicircum> <minus> : "⁻" # Superscript minus
+<Multi_key> <asciicircum> <i>     : "ⁱ" # Superscript i
+<Multi_key> <underscore> <k>      : "ₖ" # Subscript k
+<Multi_key> <underscore> <n>      : "ₙ" # Subscript n
+<Multi_key> <underscore> <i>      : "ᵢ" # Subscript i
+<Multi_key> <underscore> <minus>  : "₋" # Subscript minus
+
+# Other useful characters
+<Multi_key> <asterisk> <asterisk> : "•" # Bullet point
+<Multi_key> <n> <b> <space>     : " " # Non-breaking space.
+<Multi_key> <t> <a> <b> <space> : "	" # Tab character.
+<Multi_key> <f> <g> <space>     : " " # Figure space.
+<Multi_key> <i> <d> <space>     : "　" # Idiographic space?
+<Multi_key> <m> <space> <space> : " " # Medium math space.
+<Multi_key> <p> <a> <r> <space> : " "# Paragraph separator.
+<Multi_key> <0> <space>         : "​" # Zero-width space.
+<Multi_key> <0> <j>         : "‍" # Zero-width joiner.
+<Multi_key> <0> <n> <j>     : "‌" # Zero-width non-joiner
