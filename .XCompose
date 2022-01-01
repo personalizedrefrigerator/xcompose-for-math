@@ -14,27 +14,28 @@ include "%L"
 <Multi_key> <m> <x>         : "⨯" # Product (vector product, cross product)
 <Multi_key> <c> <i> <n> <t> : "∫" # Integral symbol
 <Multi_key> <s> <u> <n>     : "∪" # Set union
-<Multi_key> <S> <i> <n>     : "∩" # Set intersection
 <Multi_key> <s> <i> <n>     : "∈" # Element of
+<Multi_key> <s> <c> <a> <p> : "∩" # Set intersection
 <Multi_key> <s> <n> <i> <n> : "∉" # Not element of
 <Multi_key> <s> <s> <u> <b> : "⊂" # Set subset
-<Multi_key> <S> <s> <u> <b> : "⊆" # Set subset equalto/inclusive
+<Multi_key> <s> <s> <u> <b> : "⊆" # Set subset equalto/inclusive
 <Multi_key> <m> <p> <m>     : "±" # Plus or minus.
-<Multi_key> <M> <p> <m>     : "∓" # Minus or plus.
+<Multi_key> <m> <m> <p>     : "∓" # Minus or plus.
 <Multi_key> <less> <equal>  : "≤" # Less than or equal to
 <Multi_key> <greater> <equal> : "≥" # Greater than or equal to
 <Multi_key> <n> <equal>       : "≠" # Not equal to
 <Multi_key> <exclam> <equal>  : "≠" # Not equal to (alternate)
 
 <Multi_key> <g> <d> <l>     : "∂" # Lowercase delta
-<Multi_key> <g> <D> <l>     : "Δ" # Uppercase delta
-<Multi_key> <g> <N> <b>     : "∇" # Nabla
+<Multi_key> <u> <d> <l>     : "Δ" # Uppercase delta
+<Multi_key> <u> <n> <b>     : "∇" # Nabla
 <Multi_key> <g> <t> <h>     : "ϑ" # Theta
 <Multi_key> <g> <T> <h>     : "Θ" # Capital theta
 <Multi_key> <g> <O> <m>     : "Ω" # Capital omega
 <Multi_key> <g> <O> <h> <m> : "Ω" # Capital omega (Ohm symbol)
 <Multi_key> <g> <p> <i>     : "π" # Pi
 <Multi_key> <g> <p> <h> <i> : "φ" # Phi
+<Multi_key> <g> <p> <s> <i> : "ψ" # Psi
 <Multi_key> <g> <P> <h> <i> : "Φ" # Capital phi
 <Multi_key> <g> <l> <m> <d> : "λ" # Lamda
 <Multi_key> <g> <L> <m> <d> : "Λ" # Capital lamda
@@ -44,7 +45,7 @@ include "%L"
 <Multi_key> <g> <y>         : "γ" # Gamma
 <Multi_key> <g> <Y>         : "Γ" # Capital gamma
 <Multi_key> <g> <m> <u>     : "μ" # Small mu
-<Multi_key> <g> <M> <u>     : "Μ" # Capital mu
+<Multi_key> <u> <m> <u>     : "Μ" # Capital mu
 <Multi_key> <g> <s> <i> <g> : "σ" # Lowercase sigma
 <Multi_key> <g> <S> <i> <g> : "Σ" # Capital sigma
 
@@ -86,9 +87,15 @@ include "%L"
 <Multi_key> <underscore> <k>      : "ₖ" # Subscript k
 <Multi_key> <underscore> <n>      : "ₙ" # Subscript n
 <Multi_key> <underscore> <i>      : "ᵢ" # Subscript i
+<Multi_key> <underscore> <x>      : "ₓ" # Subscript x
+<Multi_key> <underscore> <y>      : "ᵧ" # Subscript gamma (looks like subscript y)
 <Multi_key> <underscore> <minus>  : "₋" # Subscript minus
 
 # Other useful characters
+<Multi_key> <apostrophe> <l>    : "‘" # Left apostrophe.
+<Multi_key> <apostrophe> <r>    : "’" # Right apostrophe.
+<Multi_key> <quotedbl> <l>      : "“" # Left double-quote
+<Multi_key> <quotedbl> <r>      : "”" # Right double-quote
 <Multi_key> <asterisk> <asterisk> : "•" # Bullet point
 <Multi_key> <n> <b> <space>     : " " # Non-breaking space.
 <Multi_key> <t> <a> <b> <space> : "	" # Tab character.
@@ -99,3 +106,13 @@ include "%L"
 <Multi_key> <0> <space>         : "​" # Zero-width space.
 <Multi_key> <0> <j>         : "‍" # Zero-width joiner.
 <Multi_key> <0> <n> <j>     : "‌" # Zero-width non-joiner
+
+# Music characters
+<Multi_key> <M> <b>          : "♭" # Music flat sign
+<Multi_key> <M> <numbersign> : "♯" # Music sharp sign
+<Multi_key> <M> <x> <x>      : "𝄪" # Music double sharp
+<Multi_key> <M> <G>          : "𝄞" # Music trebble/G clef.
+<Multi_key> <M> <B>          : "𝄢" # Music bass clef
+<Multi_key> <M> <o>          : "𝅝" # Music whole note
+<Multi_key> <M> <d> <4>      : "𝅘𝅥" # Upper quarter note
+<Multi_key> <M> <d> <8>      : "𝅘𝅥𝅮" # Eigth Note
