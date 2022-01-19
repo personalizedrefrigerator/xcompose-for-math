@@ -25,6 +25,7 @@ include "%L"
 <Multi_key> <greater> <equal> : "≥" # Greater than or equal to
 <Multi_key> <n> <equal>       : "≠" # Not equal to
 <Multi_key> <exclam> <equal>  : "≠" # Not equal to (alternate)
+<Multi_key> <m> <a> <p> <p> : "≈" # Approximately equal to
 
 <Multi_key> <g> <d> <l>     : "∂" # Lowercase delta
 <Multi_key> <u> <d> <l>     : "Δ" # Uppercase delta
@@ -39,6 +40,7 @@ include "%L"
 <Multi_key> <g> <P> <h> <i> : "Φ" # Capital phi
 <Multi_key> <g> <l> <m> <d> : "λ" # Lamda
 <Multi_key> <g> <L> <m> <d> : "Λ" # Capital lamda
+<Multi_key> <u> <l> <m> <d> : "Λ" # Capital lamda
 <Multi_key> <g> <E>         : "ε" # Epsilon
 <Multi_key> <g> <w>         : "𝜔" # Omega
 <Multi_key> <g> <W>         : "Ω" # Capital omega
@@ -79,6 +81,8 @@ include "%L"
 <Multi_key> <f> <N>         : "ℕ" # Natural numbers
 <Multi_key> <f> <P>         : "ℙ" # Primes? Polynomials?
 <Multi_key> <f> <E>         : "𝔼" # Expectation (Probability)
+<Multi_key> <f> <Q>         : "ℚ" # Rationals
+<Multi_key> <f> <1>         : "𝟙" # Ones vector
 
 # Additional superscripts
 <Multi_key> <asciicircum> <n>     : "ⁿ" # Superscript n
@@ -106,6 +110,11 @@ include "%L"
 <Multi_key> <0> <space>         : "​" # Zero-width space.
 <Multi_key> <0> <j>         : "‍" # Zero-width joiner.
 <Multi_key> <0> <n> <j>     : "‌" # Zero-width non-joiner
+
+# Checkboxes
+<Multi_key> <bracketleft> <space> <bracketright> : "☐" # Empty checkbox
+<Multi_key> <bracketleft> <x> <bracketright>     : "☒" # Checkbox with x
+<Multi_key> <bracketleft> <v> <bracketright>     : "☑" # Checkbox
 
 # Music characters
 <Multi_key> <M> <b>          : "♭" # Music flat sign
