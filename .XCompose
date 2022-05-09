@@ -18,7 +18,7 @@ include "%L"
 <Multi_key> <s> <c> <a> <p> : "∩" # Set intersection
 <Multi_key> <s> <n> <i> <n> : "∉" # Not element of
 <Multi_key> <s> <s> <u> <b> : "⊂" # Set subset
-<Multi_key> <s> <s> <u> <b> : "⊆" # Set subset equalto/inclusive
+<Multi_key> <s> <s> <u> <e> : "⊆" # Set subset equalto/inclusive
 <Multi_key> <m> <p> <m>     : "±" # Plus or minus.
 <Multi_key> <m> <m> <p>     : "∓" # Minus or plus.
 <Multi_key> <less> <equal>  : "≤" # Less than or equal to
@@ -122,6 +122,7 @@ include "%L"
 
 # Checkboxes
 <Multi_key> <bracketleft> <space> <bracketright> : "☐" # Empty checkbox
+<Multi_key> <bracketleft> <underscore> <bracketright> : "□" # White square
 <Multi_key> <bracketleft> <x> <bracketright>     : "☒" # Checkbox with x
 <Multi_key> <bracketleft> <v> <bracketright>     : "☑" # Checkbox
 
