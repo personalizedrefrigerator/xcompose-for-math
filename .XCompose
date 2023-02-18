@@ -98,6 +98,7 @@ include "%L"
 <Multi_key> <underscore> <i>      : "ᵢ" # Subscript i
 <Multi_key> <underscore> <x>      : "ₓ" # Subscript x
 <Multi_key> <underscore> <y>      : "ᵧ" # Subscript gamma (looks like subscript y)
+<Multi_key> <underscore> <t>      : "ₜ" # Subscript t
 <Multi_key> <underscore> <minus>  : "₋" # Subscript minus
 
 # Other useful characters
